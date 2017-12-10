@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    border: 2px solid;
+    justify-content: space-around;
+}
+
+.circleone {
+    /* width: 100px; */
+	height: 200px;
+	background: red;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+    border-radius: 50%;
+    flex: 0 1 200px;
+    
+    
+}
+
+.circletwo {
+    /* width: 100px; */
+	height: 200px;
+	background: red;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+    border-radius: 50%;
+    flex: 0 1 200px;
+    
+}
